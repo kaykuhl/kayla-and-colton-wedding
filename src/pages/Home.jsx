@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div className="cropped">
-        <img src="https://live.staticflickr.com/65535/52541500898_de7feeef9e_k.jpg" style={{width: 250}}/>
+        <img alt='kayla and colton being cute' src="https://live.staticflickr.com/65535/52541500898_de7feeef9e_k.jpg" style={{width: 250}}/>
         <div className="centered">
           <h1>Kayla and Colton's Wedding</h1>
           <h1>July 29th, 2023</h1>
@@ -14,15 +14,26 @@ function Home() {
         </div>
       </div>
 
-      <button>RSVP</button>
+
+        <a href="https://forms.gle/qW8K83c9hS82iNSo8" target="_blank" rel="noreferrer">
+          <button>RSVP</button>
+        </a>
 
       <SectionHeader title="Details" id="details" />
       <div>Where?: Studio J Loft</div>
       <div>When?: July 29th, 2023 at 4pm</div>
       <div>Cocktail hour, dinner, and reception to follow</div>
-      <div>Parking: Details to come</div>
-      <div>Hotels: Details to come</div>
-      <div>Dress: Details to come</div>
+      <div>Parking: Info on Downtown Stillwater Parking Ramp and free lots <a href='https://www.discoverstillwater.com/parking-ramp-free-lots/'>here</a></div>
+      <div>Hotels: Due to the different budgets and needs for our guests, we are not doing a hotel block at a specific hotel. There are many options downtown Stillwater and a short drive away. <br/>
+      Colton and Kayla will be staying at <a href='https://hotelcrosby.com/'>The Crosby</a>.<br/>
+      <a href='https://www.discoverstillwater.com/lodging/hotels/'>Here</a> is a list of other hotels in the area.</div>
+      <div>Dress: Semi-formal</div>
+
+      <div>Map (THE LOFT):
+      <img alt='stillwater map' src="https://www.one23events.com/uploads/7/5/0/5/75055219/published/parkingvenues.jpg?1648496042" style={{width: 250}}/>
+      </div>
+
+      <div>Staying for the weekend? Check out things to do in Stillwater: https://www.discoverstillwater.com/</div>
 
       <SectionHeader title="Registry" id="registry" />
       <div>
@@ -54,16 +65,25 @@ function Home() {
       </div>
       <SectionHeader title="Wedding Party" id="wedding-party" />
       <div>
-        Ashley Kuhlman - Maid of Honor (Sister) Hannah Kuhlman - Bridesmaid
-        (Sister) Alex Larrabee - Bridesmaid (Friend) Serena Beurmann -
-        Bridesmaid (Friend) Taylor Baker - Bridesmaid (Cousin)  Erik Walker -
-        Best Man (Friend) Cheston Otterness - Groomsman (Brother) Chris ? -
-        Groomsman (Friend) Lee Beurmann - Groomsman (Friend) Will Larson -
-        Groomsman (Cousin) Jolyne Peterson - Flower Grandma (Grandmother)  
-        Nancy Peterson - Personal Attendent (Aunt) Debbie Peterson - Ceremony
-        Reader (Aunt) Brooke Littleton - Usher (Cousin) ?????? Dane Littleton -
-        Usher (Cousin) ?????? Dylan Peterson - Usher (Cousin) ?????? Ty Peterson
-        - Usher (Cousin) ???????   
+        Ashley Kuhlman - Maid of Honor (Sister of the Bride)<br/>
+        Hannah Kuhlman - Bridesmaid (Sister of the Bride)<br/>
+        Alex Larrabee - Bridesmaid (Friend)<br/>
+        Serena Buermann - Bridesmaid(Friend)<br/>
+        Taylor Baker - Bridesmaid (Cousin of the Bride)<br/>
+        <br/>
+        Erik Walker - Best Man (Friend)<br/> 
+        Cheston Otterness - Groomsman (Brother of the groom)<br/> 
+        Chris Halsted -Groomsman (Friend)<br/> 
+        Lee Beurmann - Groomsman (Friend)<br/> 
+        Will Larson - Groomsman (Cousin of the Bride)<br/> 
+        <br/>
+        Jolyne Peterson - Flower Grandma (Grandmother)<br/>
+        Nancy Peterson - Personal Attendent (Aunt of the Bride)<br/> 
+        Debbie Peterson - Ceremony Reader (Aunt of the Bride)<br/> 
+        Brooke Littleton - Usher (Cousin of the Bride)<br/> 
+        Dane Littleton - Usher (Cousin of the Bride)<br/> 
+        Dylan Peterson - Usher (Cousin of the Bride)<br/> 
+        Ty Peterson - Usher (Cousin of the Bride)<br/> 
       </div>
     </>
   );

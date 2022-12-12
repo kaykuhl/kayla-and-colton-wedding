@@ -4,7 +4,9 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
-      <button onClick={() => window.location.replace("/")}>RSVP</button>
+      <a href="https://forms.gle/qW8K83c9hS82iNSo8" target="_blank" rel="noreferrer">
+          <button>RSVP</button>
+      </a>
       <button onClick={() => window.location.replace("/#details")}>
         Details
       </button>
