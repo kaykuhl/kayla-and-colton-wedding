@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kayla-and-colton-wedding/static/css/main.abd64e84.css",
+    "main.js": "/kayla-and-colton-wedding/static/js/main.0202ca65.js",
+    "index.html": "/kayla-and-colton-wedding/index.html",
+    "main.abd64e84.css.map": "/kayla-and-colton-wedding/static/css/main.abd64e84.css.map",
+    "main.0202ca65.js.map": "/kayla-and-colton-wedding/static/js/main.0202ca65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.0202ca65.js"
+  ]
+}
