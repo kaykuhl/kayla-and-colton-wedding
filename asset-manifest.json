@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kayla-and-colton-wedding/static/css/main.abd64e84.css",
-    "main.js": "/kayla-and-colton-wedding/static/js/main.155aec00.js",
+    "main.js": "/kayla-and-colton-wedding/static/js/main.872a33e7.js",
     "index.html": "/kayla-and-colton-wedding/index.html",
     "main.abd64e84.css.map": "/kayla-and-colton-wedding/static/css/main.abd64e84.css.map",
-    "main.155aec00.js.map": "/kayla-and-colton-wedding/static/js/main.155aec00.js.map"
+    "main.872a33e7.js.map": "/kayla-and-colton-wedding/static/js/main.872a33e7.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.155aec00.js"
+    "static/js/main.872a33e7.js"
   ]
 }
