@@ -8,8 +8,8 @@ export const SectionHeader = (props) => {
     };
     return (
         <>
-        <h1 id={props.id} style={myStyle}>{props.title}</h1>
-        <hr style={{marginTop: 0, paddingTop: 0}}/>
+        <h2 id={props.id} style={myStyle}>{props.title}</h2>
+        <hr style={{margin: 'auto',marginTop: 0, paddingTop: 0}}/>
         </>
     );
 }

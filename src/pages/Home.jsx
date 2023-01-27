@@ -1,23 +1,23 @@
 import React from "react";
 import { SectionHeader } from "../components/SectionHeader";
 import "../App.css";
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container'
 
 function Home() {
   return (
-    <>
-      <div className="cropped">
-        <img alt='kayla and colton being cute' src="https://live.staticflickr.com/65535/52541500898_de7feeef9e_k.jpg" style={{width: 250}}/>
-        <div className="centered">
+    <div className="align-items-center justify-content-center text-center mt-5">
           <h1>Kayla and Colton's Wedding</h1>
           <h1>July 29th, 2023</h1>
           <h1>Stillwater, Minnesota</h1>
-        </div>
-      </div>
+
 
 
         <a href="https://forms.gle/qW8K83c9hS82iNSo8" target="_blank" rel="noreferrer">
-          <button>RSVP</button>
+          <Button variant="dark" size='lg' className='mt-2'>RSVP</Button>
         </a>
+
+        <div style={{width:  '65%', margin: 'auto'}} className='mt-5'>
 
       <SectionHeader title="Details" id="details" />
       <div>Where?: Studio J Loft</div>
@@ -85,7 +85,8 @@ function Home() {
         Dylan Peterson - Usher (Cousin of the Bride)<br/> 
         Ty Peterson - Usher (Cousin of the Bride)<br/> 
       </div>
-    </>
+      </div>
+    </div>
   );
 }
 
