@@ -2,9 +2,10 @@ export const SectionHeader = (props) => {
     const myStyle = {
         padding: "16px",
         fontFamily: "Arial",
-        margin: 0,
-        paddingBottom: 0,
-        width: "100%"      
+        width: "100%",
+        marginBottom: '0px',
+        background: '#22311d',
+        color: 'white'
     };
     return (
         <>

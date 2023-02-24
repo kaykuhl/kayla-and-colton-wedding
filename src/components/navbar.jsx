@@ -5,7 +5,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 function NavBar() {
   return (
     <Navbar bg="dark" variant="dark">
-    <Container>
+    <Container style={{margin:'auto', width: '1000px'}}>
       <Navbar.Brand>K & O</Navbar.Brand>
         <Nav className="me-auto">
         <Nav.Link href="https://forms.gle/qW8K83c9hS82iNSo8" target="_blank" rel="noreferrer">RSVP</Nav.Link>

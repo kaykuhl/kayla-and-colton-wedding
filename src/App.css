@@ -1,5 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Noticia Text', serif;
+}
+
+.kayla-and-colton-header {
+  font-family: 'Tilt Prism', cursive;
+  font-size: 125px
+}
+
+.date-header {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.engagement-photo {
+  width: 300px;
+  margin-bottom: 20px
+}
+
+.ceremony-details {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 5px;
 }

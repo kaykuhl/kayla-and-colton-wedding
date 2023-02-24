@@ -1,51 +1,118 @@
 import React from "react";
 import { SectionHeader } from "../components/SectionHeader";
 import "../App.css";
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container'
+import Button from "react-bootstrap/Button";
+import { Row, Col, Container, Card } from "react-bootstrap";
 
 function Home() {
   return (
-    <div className="align-items-center justify-content-center text-center mt-5">
-          <h1>Kayla and Colton's Wedding</h1>
-          <h1>July 29th, 2023</h1>
-          <h1>Stillwater, Minnesota</h1>
+    <Container
+      className="align-items-center justify-content-center text-center mt-5"
+      style={{ margin: "auto", width: "1000px" }}
+    >
+      <h1 className="kayla-and-colton-header">Kayla & Colton</h1>
+      <h1 className="date-header">July 29th, 2023</h1>
 
+      <Row>
+        <Col>
+          <img
+            className="engagement-photo"
+            src="https://live.staticflickr.com/65535/52541248764_cc4010e10f_k.jpg"
+            alt="Snow"
+          />
+        </Col>
+        <Col class="column">
+          <img
+            className="engagement-photo"
+            src="https://live.staticflickr.com/65535/52540951036_b171bdafc0_k.jpg"
+            alt="Forest"
+          />
+        </Col>
+        <Col class="column">
+          <img
+            className="engagement-photo"
+            src="https://live.staticflickr.com/65535/52541500898_de7feeef9e_k.jpg"
+            alt="Mountains"
+          />
+        </Col>
+      </Row>
 
+      <a
+        href="https://forms.gle/qW8K83c9hS82iNSo8"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Button variant="dark" size="lg" className="mt-4">
+          RSVP
+        </Button>
+      </a>
 
-        <a href="https://forms.gle/qW8K83c9hS82iNSo8" target="_blank" rel="noreferrer">
-          <Button variant="dark" size='lg' className='mt-2'>RSVP</Button>
-        </a>
+      <h2 className="mt-5 ceremony-details">Ceremony @ 4pm</h2>
+      <h2 className="ceremony-details">The Loft at Studio J</h2>
+      <h2 className="ceremony-details">214 Main St S, Stillwater, MN 55082</h2>
+      <h2 className="mb-5 ceremony-details">Cocktail Hour, Dinner & Dancing to Follow</h2>
 
-        <div style={{width:  '65%', margin: 'auto'}} className='mt-5'>
+      <Card className="mt-5">
+        <Card.Title className="mb-1">
+          <SectionHeader title="Details" id="details" />
+        </Card.Title>
+        <Card.Body className="mb-1">
+          <div>Where?: Studio J Loft</div>
+          <div>When?: July 29th, 2023 at 4pm</div>
+          <div>Cocktail hour, dinner, and reception to follow</div>
+          <div>
+            Parking: Info on Downtown Stillwater Parking Ramp and free lots{" "}
+            <a href="https://www.discoverstillwater.com/parking-ramp-free-lots/">
+              here
+            </a>
+          </div>
+          <div>
+            Hotels: Due to the different budgets and needs for our guests, we
+            are not doing a hotel block at a specific hotel. There are many
+            options downtown Stillwater and a short drive away. <br />
+            Colton and Kayla will be staying at{" "}
+            <a href="https://hotelcrosby.com/">The Crosby</a>.<br />
+            <a href="https://www.discoverstillwater.com/lodging/hotels/">
+              Here
+            </a>{" "}
+            is a list of other hotels in the area.
+          </div>
+          <div>Dress: Semi-formal</div>
 
-      <SectionHeader title="Details" id="details" />
-      <div>Where?: Studio J Loft</div>
-      <div>When?: July 29th, 2023 at 4pm</div>
-      <div>Cocktail hour, dinner, and reception to follow</div>
-      <div>Parking: Info on Downtown Stillwater Parking Ramp and free lots <a href='https://www.discoverstillwater.com/parking-ramp-free-lots/'>here</a></div>
-      <div>Hotels: Due to the different budgets and needs for our guests, we are not doing a hotel block at a specific hotel. There are many options downtown Stillwater and a short drive away. <br/>
-      Colton and Kayla will be staying at <a href='https://hotelcrosby.com/'>The Crosby</a>.<br/>
-      <a href='https://www.discoverstillwater.com/lodging/hotels/'>Here</a> is a list of other hotels in the area.</div>
-      <div>Dress: Semi-formal</div>
+          <div>
+            <img
+              alt="stillwater map"
+              src="https://www.one23events.com/uploads/7/5/0/5/75055219/published/parkingvenues.jpg?1648496042"
+              style={{ width: 500 }}
+            />
+          </div>
 
-      <div>Map (THE LOFT):
-      <img alt='stillwater map' src="https://www.one23events.com/uploads/7/5/0/5/75055219/published/parkingvenues.jpg?1648496042" style={{width: 250}}/>
-      </div>
+          <div>
+            Staying for the weekend? Check out things to do in Stillwater:
+            https://www.discoverstillwater.com/
+          </div>
+        </Card.Body>
+      </Card>
 
-      <div>Staying for the weekend? Check out things to do in Stillwater: https://www.discoverstillwater.com/</div>
-
-      <SectionHeader title="Registry" id="registry" />
-      <div>
+      <Card className="mt-5">
+        <Card.Title className="mb-1">
+        <SectionHeader title="Registry" id="registry" />
+        </Card.Title>
+        <Card.Body className="mb-1">      <div>
         We feel blessed enough that you're choosing to spend the day with us and
         we do not expect gifts from our wedding guests. If you wish to give a
         gift, we are registered at Amazon and REI. If a gift is hard to find
         consider funding for our Honeymoon in Norway in October 2023: link here
-      </div>
+      </div></Card.Body>
+        </Card>
 
-      <SectionHeader title="Our Story" id="our-story" />
-
-      <div>
+      
+        <Card className="mt-5">
+        <Card.Title className="mb-1">
+        <SectionHeader title="Our Story" id="our-story" />
+        </Card.Title>
+        <Card.Body className="mb-1">      
+        <div>
         Kayla and Colton met in 2013 while attending their last years of
         college.
       </div>
@@ -63,30 +130,57 @@ function Home() {
         They just purchased a house in Richfield, MN in december 2021 and are
         excited to continue making it their home.
       </div>
-      <SectionHeader title="Wedding Party" id="wedding-party" />
+      </Card.Body>
+        </Card>
+
+      
+        <Card className="mt-5">
+        <Card.Title className="mb-1">
+        <SectionHeader title="Wedding Party" id="wedding-party" />
+        </Card.Title>
+        <Card.Body className="mb-1">      
       <div>
-        Ashley Kuhlman - Maid of Honor (Sister of the Bride)<br/>
-        Hannah Kuhlman - Bridesmaid (Sister of the Bride)<br/>
-        Alex Larrabee - Bridesmaid (Friend)<br/>
-        Serena Buermann - Bridesmaid(Friend)<br/>
-        Taylor Baker - Bridesmaid (Cousin of the Bride)<br/>
-        <br/>
-        Erik Walker - Best Man (Friend)<br/> 
-        Cheston Otterness - Groomsman (Brother of the groom)<br/> 
-        Chris Halsted -Groomsman (Friend)<br/> 
-        Lee Beurmann - Groomsman (Friend)<br/> 
-        Will Larson - Groomsman (Cousin of the Bride)<br/> 
-        <br/>
-        Jolyne Peterson - Flower Grandma (Grandmother)<br/>
-        Nancy Peterson - Personal Attendent (Aunt of the Bride)<br/> 
-        Debbie Peterson - Ceremony Reader (Aunt of the Bride)<br/> 
-        Brooke Littleton - Usher (Cousin of the Bride)<br/> 
-        Dane Littleton - Usher (Cousin of the Bride)<br/> 
-        Dylan Peterson - Usher (Cousin of the Bride)<br/> 
-        Ty Peterson - Usher (Cousin of the Bride)<br/> 
-      </div>
-      </div>
-    </div>
+        Ashley Kuhlman - Maid of Honor (Sister of the Bride)
+        <br />
+        Hannah Kuhlman - Bridesmaid (Sister of the Bride)
+        <br />
+        Alex Larrabee - Bridesmaid (Friend)
+        <br />
+        Serena Buermann - Bridesmaid(Friend)
+        <br />
+        Taylor Baker - Bridesmaid (Cousin of the Bride)
+        <br />
+        <br />
+        Erik Walker - Best Man (Friend)
+        <br />
+        Cheston Otterness - Groomsman (Brother of the groom)
+        <br />
+        Chris Halsted -Groomsman (Friend)
+        <br />
+        Lee Beurmann - Groomsman (Friend)
+        <br />
+        Will Larson - Groomsman (Cousin of the Bride)
+        <br />
+        <br />
+        Jolyne Peterson - Flower Grandma (Grandmother)
+        <br />
+        Nancy Peterson - Personal Attendent (Aunt of the Bride)
+        <br />
+        Debbie Peterson - Ceremony Reader (Aunt of the Bride)
+        <br />
+        Brooke Littleton - Usher (Cousin of the Bride)
+        <br />
+        Dane Littleton - Usher (Cousin of the Bride)
+        <br />
+        Dylan Peterson - Usher (Cousin of the Bride)
+        <br />
+        Ty Peterson - Usher (Cousin of the Bride)
+        <br />
+      </div></Card.Body>
+        </Card>
+
+
+    </Container>
   );
 }
 
