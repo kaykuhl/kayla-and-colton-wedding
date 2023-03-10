@@ -106,9 +106,6 @@ function Home() {
             3 minute walk to venue
             <br />
           </div>
-          <div className="mb-3">
-            Here is a list of other hotels in the area.
-          </div>
           <div className="mb-1">
             Staying for the weekend? Check out things to do in Stillwater:
             <br />
