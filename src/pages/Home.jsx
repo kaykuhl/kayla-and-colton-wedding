@@ -80,20 +80,6 @@ function Home() {
             based on what accommodations and budget you are looking for:
           </div>
           <div className="mb-3">
-            <span style={{ fontWeight: 500 }}>Budget Option</span>
-            <br />
-            Comfort Inn & Suites
-            <br />
-            2000 Washington Ave, Stillwater, MN 55082
-            <br />
-            <a href="https://www.choicehotels.com/minnesota/stillwater/comfort-inn-hotels/mn176">
-              www.choicehotels.com/minnesota/stillwater/comfort-inn-hotels/mn176
-            </a>
-            <br />
-            (651) 390-6179
-            <br />6 minute drive to venue
-          </div>
-          <div className="mb-3">
             <span style={{ fontWeight: 500 }}>Downtown Historic Hotel</span>
             <br />
             Lowell Inn - Hotel & Restaurant
