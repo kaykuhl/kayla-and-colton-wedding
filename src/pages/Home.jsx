@@ -86,8 +86,8 @@ function Home() {
             <br />
             2000 Washington Ave, Stillwater, MN 55082
             <br />
-            <a href="https://www.choicehotels.com/minnesota/stillwater/comfort-inn-hotels/">
-              www.choicehotels.com/minnesota/stillwater/comfort-inn-hotels
+            <a href="https://www.choicehotels.com/minnesota/stillwater/comfort-inn-hotels/mn176">
+              www.choicehotels.com/minnesota/stillwater/comfort-inn-hotels/mn176
             </a>
             <br />
             (651) 390-6179
