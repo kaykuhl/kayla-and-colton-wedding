@@ -76,8 +76,7 @@ function Home() {
           </div>
           <div className="mb-2">
             <span style={{ fontWeight: 500 }}>Hotels: </span>
-            There are many options downtown Stillwater and a short drive away
-            based on what accommodations and budget you are looking for:
+            There are many options downtown Stillwater and a short drive away based on what accommodations and budget you are looking for. Here are some hotels walking distance from the venue:
           </div>
           <div className="mb-3">
             <span style={{ fontWeight: 500 }}>Downtown Historic Hotel</span>
