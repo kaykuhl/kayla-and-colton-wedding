@@ -7,7 +7,7 @@ function Home() {
   return (
     <Container
       className="align-items-center justify-content-center text-center mt-5"
-      style={{ margin: "auto", width: "1000px" }}
+      style={{ margin: "auto"}}
     >
       <h1 className="kayla-and-colton-header">Kayla & Colton</h1>
       <h1 className="date-header">July 29th, 2023</h1>
@@ -125,10 +125,14 @@ function Home() {
             We are registered at{" "}
             <a href="https://www.zola.com/registry/kuhlmanotternesswedding">
               Zola
-            </a>{" "}
-            &{" "}
+            </a>
+            {" "},{" "}
             <a href="https://www.amazon.com/wedding/kayla-kuhlman-colton-otterness--july-2023/registry/12I7ZDUFEL7SD">
               Amazon
+            </a>
+            {" "}&{" "}
+            <a href="https://www.target.com/gift-registry/gift-giver?registryId=cc72b770-b65c-11ed-81fd-310f81826ad7&type=WEDDING">
+              Target
             </a>
           </div>
         </Card.Body>
