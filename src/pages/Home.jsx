@@ -186,7 +186,7 @@ function Home() {
 
           <div className="mb-2">
           <span style={{ fontWeight: 500 }}>Can I bring a plus one?</span><br/>
-          Celebrate 'love' with us!  We invite our single guests to bring a special someone if they are in a serious relationship. 
+          Celebrate 'love' with us!  We invite our guests to bring a special someone if they are in a serious relationship. 
           We kindly ask that you refrain from bringing casual acquaintances or dates who you are not currently in a committed relationship with.  
           Please indicate this on your RSVP.
           </div>
