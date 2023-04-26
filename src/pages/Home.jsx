@@ -95,7 +95,8 @@ function Home() {
           <div className="mb-3">
             <span style={{ fontWeight: 500 }}>Waterfront Historic Hotel</span>
             <br />
-            Water Street Inn 101 Water St S<br />
+            Water Street Inn<br/>
+            101 Water St S<br />
             Stillwater, MN 55082
             <br />
             <a href="https://waterstreetinn.us/">www.waterstreetinn.us</a>
@@ -103,6 +104,32 @@ function Home() {
             (651) 439-6000
             <br />
             3 minute walk to venue
+            <br />
+          </div>
+          <div className="mb-3">
+            <span style={{ fontWeight: 500 }}>Chain Hotel a Short Drive Away</span>
+            <br />
+            Country Inn & Suites by Raddison, Stillwater<br></br>
+            2000 Washington Avenue<br />
+            Stillwater, MN 55082
+            <br />
+            <a href="https://www.radissonhotelsamericas.com/en-us/booking/room-display?hotelCode=USASTMN&facilitatorId=GOOGLEHPAAMERICAS&checkInDate=2023-07-29&checkOutDate=2023-07-30&adults%5B%5D=2&children%5B%5D=0&searchType=lowest&currencyCode=USD&testClick=false&cid=a:mt+b:gha+c:amer+d:US+e:rad+g:ho+h:USASTMN+i:ghameta+r:desktop+&content=gha_CARLSON-USASTMN_US_desktop_1_2023_07_29_selected_12889097248__standard&hmGUID=a05fd75a-3229-47f1-b927-ac6a585d07f5">radissonhotelsamericas.com</a>
+            <br />
+            (651) 390-6719
+            <br />
+            5 minute drive to venue
+            <br />
+          </div>
+          <div className="mb-3">
+            <span style={{ fontWeight: 500 }}>Affordable Hotel in Hudson</span>
+            <br />
+            Hudson Inn & Suites/ Hudson WI<br/>
+            811 Dominion Dr<br />
+            Hudson, WI 54016
+            <br />
+            (715) 386-6355
+            <br />
+            16 minute drive to venue
             <br />
           </div>
           <div className="mb-1">
@@ -122,6 +149,11 @@ function Home() {
         <Card.Body className="mb-1">
           {" "}
           <div>
+          We are so extremely excited that you will be joining us this fall for our wedding day. 
+          As you may know, we have already established a lovely home for ourselves and have many of the essentials already. 
+          Your attendance to our wedding is the greatest gift we could ever want, 
+          but for those that have shown interest in a gift offering to celebrate the occasion a registry has been set up. 
+          Also consider donating to the honey moon fund! <br></br>
             We are registered at{" "}
             <a href="https://www.zola.com/registry/kuhlmanotternesswedding">
               Zola
@@ -137,6 +169,45 @@ function Home() {
           </div>
         </Card.Body>
       </Card>
+
+      <Card className="mt-5">
+        <Card.Title
+          className="my-1"
+          id="faqs"
+          style={{ fontSize: 25 }}
+        >
+          FAQ's
+        </Card.Title>
+        <Card.Body className="mb-1">
+          <div className="mb-2">
+          <span style={{ fontWeight: 500 }}>Can I bring my child?</span><br/>
+          To give all our guests the opportunity to celebrate without having to worry about little eyes and ears, we politely request no children outside of the wedding party.
+          </div>
+
+          <div className="mb-2">
+          <span style={{ fontWeight: 500 }}>Can I bring a plus one?</span><br/>
+          Celebrate 'love' with us!  We invite our single guests to bring a special someone if they are in a serious relationship. 
+          We kindly ask that you refrain from bringing casual acquaintances or dates who you are not currently in a committed relationship with.  
+          Please indicate this on your RSVP.
+          </div>
+
+          <div className="mb-2">
+          <span style={{ fontWeight: 500 }}>Will the ceremony, cocktail hour, and reception take place indoors or outdoors?</span><br/>
+          The festivities of the day will all take place indoors.
+          </div>
+
+          <div className="mb-2">
+          <span style={{ fontWeight: 500 }}>How do I get to the wedding venue? Will transportation be provided?</span><br/>
+          Studio J Loft is located in downtown Stillwater on main street (214 Main St S, Stillwater, MN 55082). Transportation will not be provided by the couple, but they encourage you to use 
+          the many free parking options in Stillwater as well as rideshare apps such as Uber or Lyft, or calling a Taxi service such as Blue and White Taxi (612-333-3333) for a ride.
+          </div>
+
+          <div className="mb-2">
+          <span style={{ fontWeight: 500 }}>Is somebody changing their name?</span><br/>
+          While Kayla often fights tradition with her views on gender equality, she has made the personal decision to take Colton's last name, Otterness, as a symbol of unity and building life together as a team. 
+          </div>
+        </Card.Body>
+        </Card>
 
       <Card className="mt-5">
         <Card.Title className="my-1" id="our-story" style={{ fontSize: 25 }}>
@@ -190,7 +261,7 @@ function Home() {
             <br />
             Cheston Otterness - Groomsman (Brother of the groom)
             <br />
-            Chris Halsted -Groomsman (Friend)
+            Chris Halsted - Groomsman (Friend)
             <br />
             Lee Beurmann - Groomsman (Friend)
             <br />
@@ -214,6 +285,8 @@ function Home() {
           </div>
         </Card.Body>
       </Card>
+
+
     </Container>
   );
 }
