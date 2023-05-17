@@ -205,25 +205,25 @@ function Home() {
             Kayla and Colton met in 2013 while attending their last years of college. Even though they were hours apart, the relationship blossomed with 5 hour long skype calls,
             Colton sending Kayla pizza while she was studying for big exams, & many hours driving to visit eachother.  It just felt like they both had found their "person".
           </div>
-          <img src="https://i.ibb.co/DYXb3NV/1836704-10203198712669832-910651783-o.jpg" width="500" className="m-2"></img>
+          <img src="https://i.ibb.co/DYXb3NV/1836704-10203198712669832-910651783-o.jpg" width="250" className="m-2"></img>
 
           <div>
             Kayla and Colton had just one board game when they moved in together. Well, it's gotten a little bit out of control & They now have over 150 board games. 
             They love to host board game nights, play dungeons and dragons & pathfinder, make their own wine, dress up like zombies, & get muddy!</div>
-            <img src="https://i.ibb.co/hDY7QVz/22540088-10214361764899161-1079957163811280246-n.jpg" width="200" className="m-2"></img>
-            <img src="https://i.ibb.co/Sw3gPyQ/66513009-10162155217060230-630402805647015936-n.jpg" width="341" className="m-2"></img>
+            <img src="https://i.ibb.co/hDY7QVz/22540088-10214361764899161-1079957163811280246-n.jpg" width="100" className="m-2"></img>
+            <img src="https://i.ibb.co/Sw3gPyQ/66513009-10162155217060230-630402805647015936-n.jpg" width="167" className="m-2"></img>
           <div>
             They have traveled together and with family. To Denver, Arizona, Florida, Rome, Italy, Las Vegas, and the Carribean (we won’t talk about the time Colton sprained his ankle after the booze
             cruise...).  On one of those trips to Colorado with some dear friends, Colton popped the question... after a very greuling hike to the top of Mt. Olympus in Estes Park, Colorado!
           </div>
-          <img src="https://i.ibb.co/DQXYxdr/241533689-10226701553426162-3691543528857394859-n.jpg" width="500" className="m-2"></img>
+          <img src="https://i.ibb.co/DQXYxdr/241533689-10226701553426162-3691543528857394859-n.jpg" width="250" className="m-2"></img>
           <div>
             They just purchased a house in Richfield, MN in december 2021 and are excited to continue making it their home.
           </div>
           <div>
             They are so excited to celebrate their marriage with their closest family and friends and excited to see what kind of adventures they will have as a married couple.
           </div>
-          <img src="https://i.ibb.co/G9SYhdP/70276887-10162400507080121-1741112448250806272-n.jpg" width="500" className="m-2"></img>
+          <img src="https://i.ibb.co/G9SYhdP/70276887-10162400507080121-1741112448250806272-n.jpg" width="250" ></img>
         </Card.Body>
       </Card>
 

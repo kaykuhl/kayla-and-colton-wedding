@@ -26,3 +26,7 @@ body {
   font-weight: 300;
   margin-bottom: 5px;
 }
+
+.bio-photo {
+  min-width: 250px
+}
