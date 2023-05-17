@@ -93,31 +93,17 @@ function Home() {
             <br />
           </div>
           <div className="mb-3">
-            <span style={{ fontWeight: 500 }}>Waterfront Historic Hotel</span>
-            <br />
-            Water Street Inn<br/>
-            101 Water St S<br />
-            Stillwater, MN 55082
-            <br />
-            <a href="https://waterstreetinn.us/">www.waterstreetinn.us</a>
-            <br />
-            (651) 439-6000
-            <br />
-            3 minute walk to venue
-            <br />
-          </div>
-          <div className="mb-3">
             <span style={{ fontWeight: 500 }}>Chain Hotel a Short Drive Away</span>
             <br />
-            Country Inn & Suites by Raddison, Stillwater<br></br>
-            2000 Washington Avenue<br />
+            Grandstay Hotel and Suites Stillwater<br></br>
+            2200 West Frontage Road <br/>
             Stillwater, MN 55082
             <br />
-            <a href="https://www.radissonhotelsamericas.com/en-us/booking/room-display?hotelCode=USASTMN&facilitatorId=GOOGLEHPAAMERICAS&checkInDate=2023-07-29&checkOutDate=2023-07-30&adults%5B%5D=2&children%5B%5D=0&searchType=lowest&currencyCode=USD&testClick=false&cid=a:mt+b:gha+c:amer+d:US+e:rad+g:ho+h:USASTMN+i:ghameta+r:desktop+&content=gha_CARLSON-USASTMN_US_desktop_1_2023_07_29_selected_12889097248__standard&hmGUID=a05fd75a-3229-47f1-b927-ac6a585d07f5">radissonhotelsamericas.com</a>
+            <a href="https://grandstayhospitality.com">www.grandstayhospitality.com</a>
             <br />
-            (651) 390-6719
+            651-430-2699
             <br />
-            5 minute drive to venue
+            6 minute drive to venue
             <br />
           </div>
           <div className="mb-3">
@@ -216,23 +202,28 @@ function Home() {
         <Card.Body className="mb-1">
           <div>Okayyyyy Cupid.</div>
           <div>
-            Kayla and Colton met in 2013 while attending their last years of
-            college.
+            Kayla and Colton met in 2013 while attending their last years of college. Even though they were hours apart, the relationship blossomed with 5 hour long skype calls,
+            Colton sending Kayla pizza while she was studying for big exams, & many hours driving to visit eachother.  It just felt like they both had found their "person".
+          </div>
+          <img src="https://i.ibb.co/DYXb3NV/1836704-10203198712669832-910651783-o.jpg" width="500" className="m-2"></img>
+
+          <div>
+            Kayla and Colton had just one board game when they moved in together. Well, it's gotten a little bit out of control & They now have over 150 board games. 
+            They love to host board game nights, play dungeons and dragons & pathfinder, make their own wine, dress up like zombies, & get muddy!</div>
+            <img src="https://i.ibb.co/hDY7QVz/22540088-10214361764899161-1079957163811280246-n.jpg" width="200" className="m-2"></img>
+            <img src="https://i.ibb.co/Sw3gPyQ/66513009-10162155217060230-630402805647015936-n.jpg" width="341" className="m-2"></img>
+          <div>
+            They have traveled together and with family. To Denver, Arizona, Florida, Rome, Italy, Las Vegas, and the Carribean (we won’t talk about the time Colton sprained his ankle after the booze
+            cruise...).  On one of those trips to Colorado with some dear friends, Colton popped the question... after a very greuling hike to the top of Mt. Olympus in Estes Park, Colorado!
+          </div>
+          <img src="https://i.ibb.co/DQXYxdr/241533689-10226701553426162-3691543528857394859-n.jpg" width="500" className="m-2"></img>
+          <div>
+            They just purchased a house in Richfield, MN in december 2021 and are excited to continue making it their home.
           </div>
           <div>
-            Kayla knew Colton was the one when he sent her a pizza when she had
-            a big Chemistry exam to study for.
+            They are so excited to celebrate their marriage with their closest family and friends and excited to see what kind of adventures they will have as a married couple.
           </div>
-          <div>
-            Kayla and Colton have traveled together and with family. To Denver,
-            Arizona, Florida, Rome, Italy, Las Vegas, and the Carribean (we
-            won’t talk about the time Colton sprained his ankle after the booze
-            cruise....)
-          </div>
-          <div>
-            They just purchased a house in Richfield, MN in december 2021 and
-            are excited to continue making it their home.
-          </div>
+          <img src="https://i.ibb.co/G9SYhdP/70276887-10162400507080121-1741112448250806272-n.jpg" width="500" className="m-2"></img>
         </Card.Body>
       </Card>
 
