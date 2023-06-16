@@ -79,18 +79,7 @@ function Home() {
             There are many options downtown Stillwater and a short drive away based on what accommodations and budget you are looking for. Here are some hotels walking distance from the venue:
           </div>
           <div className="mb-3">
-            <span style={{ fontWeight: 500 }}>Downtown Historic Hotel</span>
-            <br />
-            Lowell Inn - Hotel & Restaurant
-            <br />
-            102 2nd St N, Stillwater, MN 55082
-            <br />
-            <a href="https://lowellinn.com/">www.lowellinn.com</a>
-            <br />
-            (651) 439-1100
-            <br />
-            4 minute walk to venue
-            <br />
+            Update: It seems as though many of the downtown hotels are booked for the night! There are a few options right outside of town if you are still needing a room.
           </div>
           <div className="mb-3">
             <span style={{ fontWeight: 500 }}>Chain Hotel a Short Drive Away</span>
